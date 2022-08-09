@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+h1{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    
+}
+a{
+    
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+.disini{
+    color: black;
+}
+.rounded-circle{
+    width: 60px;
+    height: 60px;
+}   
+.copyright{
+    font-family: 'Montserrat',sans-serif; ;
+}
+
+*{
+    overflow-x: hidden;
+}
+body{
+ background-color: #fda835;
+ font-family: 'Mogena', sans-serif;   
+}
+
+.soon{
+    margin-top: -90px;
+}
+
+
+.rumah{
+
+}
+
+
+
+
+
+body{
+    background-image: url(assets/fix.png    ); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-position: center ; */
+   
+  
+    
+}@media screen and (max-width: 1000px){
+    .orang{
+        width: 30%;
+    }
+    
+   
+    
+}
+@media screen and (max-width: 600px){
+    
+    .orang{
+        width: 25%;
+    }
+    
+    
+}
